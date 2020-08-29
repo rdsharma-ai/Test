@@ -13,6 +13,7 @@ count=0
 for k in d:
     count+=d[k]
 
+    
 p=list()
 for k in d:
     p.append((round((d[k]/count*100),1),k))
